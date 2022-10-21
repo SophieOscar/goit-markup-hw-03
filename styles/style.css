@@ -29,7 +29,7 @@ body {
     width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 215px 24px 215px 25px;
+    padding-left: 215px, 24px, 215px, 25px;
 }
 .studio-team {
     background-color: var(--team-back);
