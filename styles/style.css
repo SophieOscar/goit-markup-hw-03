@@ -39,7 +39,9 @@ body {
 
 }
 .address-list {
-
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 863px;
 }
 .studio-team {
     background-color: var(--team-back);
