@@ -26,10 +26,10 @@ body {
     background-color: var(--footer-header-color);
 }
 .container-first {
-    width: 1170px;
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 215px;
 }
 .studio-team {
     background-color: var(--team-back);
