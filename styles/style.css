@@ -39,7 +39,7 @@ body {
 
 }
 .address-list {
-    display: inline-block;
+    display: inline;
     margin-right: 0px;
     margin-left: 863px;
 }
