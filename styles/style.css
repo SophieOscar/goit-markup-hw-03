@@ -166,13 +166,14 @@ body {
     margin-bottom: 30px;
 }
 .order-service {
+
     font-family: 'Roboto', sans-serif;
     background: #2196F3;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
+    display: inline-block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
