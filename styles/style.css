@@ -149,9 +149,7 @@ body {
     text-transform: uppercase;
     color: var(--team-back);
     margin-top: 200;
-    margin-left: 452;
-    margin-right: 452;
-    margin-bottom: 200;
+    margin-bottom: 30;
 }
 .order-service {
     display: block;
