@@ -67,6 +67,9 @@ body {
     align-items: center;
     text-align: center;
 }
+.main-header {
+    align-items: center;
+}
 .container-third {
     display: inline-block;
     height: 600px;
