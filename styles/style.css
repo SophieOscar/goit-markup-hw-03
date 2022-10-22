@@ -123,6 +123,7 @@ body {
     color: var(--back-color);
     border: none;
     cursor: pointer;
+    margin: 692px, 350px, 692px, 200px;
     
 }
 .order-service:hover, .order-service:focus {
