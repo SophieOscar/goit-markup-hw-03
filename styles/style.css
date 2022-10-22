@@ -62,7 +62,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    padding: 0;
+    padding: 200px;
     background-color: var(--footer-header-color);
 }
 .container-third {
@@ -149,10 +149,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--team-back);
-    margin-top: 200px;
-    margin-left: 452px;
-    margin-right: 452px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 .order-service {
     display: block;
