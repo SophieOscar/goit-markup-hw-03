@@ -43,6 +43,18 @@ body {
     margin-right: 0px;
     margin-left: 863px;
 }
+.nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.address-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list-addr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .container-second {
     display: inline-block;
     height: 600px;
@@ -50,10 +62,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    padding-left: 452px;
-    padding-top: 200px;
-    padding-right: 452px;
-    padding-bottom: 200px;
+    
 }
 .container-third {
     display: inline-block;
@@ -139,6 +148,8 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--team-back);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .order-service {
     display: block;
