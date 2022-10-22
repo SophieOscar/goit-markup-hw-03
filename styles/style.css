@@ -148,8 +148,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--team-back);
-    margin-top: 200;
-    margin-bottom: 30;
+    margin-top: 200px;
+    margin-left: 452px;
+    margin-right: 452px;
+    margin-bottom: 30px;
 }
 .order-service {
     display: block;
