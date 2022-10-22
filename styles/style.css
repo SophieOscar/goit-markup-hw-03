@@ -64,6 +64,8 @@ body {
     margin-bottom: 0px;
     padding: 200px;
     background-color: var(--footer-header-color);
+    align-items: center;
+    text-align: center;
 }
 .container-third {
     display: inline-block;
