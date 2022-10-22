@@ -220,6 +220,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--head-link);
+    margin: 0px;
 }
 .address {
     font-family: 'Roboto', sans-serif;
