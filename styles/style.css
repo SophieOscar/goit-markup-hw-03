@@ -160,7 +160,6 @@ body {
     margin-bottom: 30px;
 }
 .order-service {
-    display: block;
     font-family: 'Roboto', sans-serif;
     background: #2196F3;
     border-radius: 4px;
@@ -174,7 +173,7 @@ body {
     color: var(--back-color);
     border: none;
     cursor: pointer;
-    margin: 692px, 30px, 692px, 200px;
+    
     
 }
 .order-service:hover, .order-service:focus {
