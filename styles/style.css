@@ -63,6 +63,30 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
 }
+.container-fourth {
+    display: inline-block;
+    height: 600px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.container-fifth {
+    display: inline-block;
+    height: 600px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.container-sixth {
+    display: inline-block;
+    height: 600px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
 .studio-team {
     background-color: var(--team-back);
 }
