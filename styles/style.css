@@ -45,12 +45,15 @@ body {
 }
 .nav-list {
     margin: 0;
+    padding: 0px;
 }
 .address-list {
     margin: 0;
+    padding: 0px;
 }
 .list-addr {
     margin: 0px;
+    padding: 0px;
     
 }
 .container-second {
