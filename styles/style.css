@@ -44,12 +44,10 @@ body {
     margin-left: 863px;
 }
 .nav-list {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 .address-list {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 .list-addr {
     margin: 0px;
