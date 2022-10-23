@@ -54,6 +54,7 @@ body {
 .list-addr {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0px;
 }
 .container-second {
     display: inline-block;
