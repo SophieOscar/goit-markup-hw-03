@@ -22,9 +22,7 @@ body {
 .main-header {
     background-color: var(--footer-header-color);
 }
-.footer {
-    background-color: var(--footer-header-color);
-}
+
 .container-first {
     display: inline-block;
     height: 80px;
@@ -108,6 +106,7 @@ body {
     padding-right: 40px;
     padding-top: 62px;
     padding-bottom: 58px;
+    background-color: var(--footer-header-color);
 }
 .studio-team {
     background-color: var(--team-back);
