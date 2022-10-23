@@ -102,6 +102,11 @@ body {
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 215px;
+    padding-top: 62px;
+    padding-bottom: 58px;
 }
 .studio-team {
     background-color: var(--team-back);
