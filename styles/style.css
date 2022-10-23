@@ -30,9 +30,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    padding-left: 40px;
+    padding-left: 15px;
     padding-top: 24px;
-    padding-right: 40px;
+    padding-right: 15px;
     padding-bottom: 25px;
 
 }
@@ -61,7 +61,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    padding: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: var(--footer-header-color);
     align-items: center;
     text-align: center;
@@ -75,16 +78,23 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .container-fourth {
     display: inline-block;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 94px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 .container-fifth {
@@ -92,8 +102,12 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 94px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .container-sixth {
     display: inline-block;
@@ -102,11 +116,23 @@ body {
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 62px;
     padding-bottom: 58px;
     background-color: var(--footer-header-color);
+}
+.container-seventh {
+    display: inline-block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .studio-team {
     background-color: var(--team-back);
