@@ -45,7 +45,7 @@ body {
 }
 .list-addr {
     padding: 0px;
-    
+
     
 }
 .container-second {
@@ -113,6 +113,9 @@ body {
     padding-right: 15px;
     padding-top: 62px;
     padding-bottom: 58px;
+    
+}
+.footer {
     background-color: var(--footer-header-color);
 }
 .container-seventh {
