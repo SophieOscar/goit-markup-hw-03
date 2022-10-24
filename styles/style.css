@@ -45,7 +45,7 @@ body {
 }
 
 .address-list {
-    display: block;
+    display: flex;
     padding: 0px;
     margin-left: auto;
    
