@@ -88,21 +88,18 @@ body {
 }
 .studio-facts-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0px;
-    margin-left: auto;
-    
+}
+.studio-facts-item {
+    width: 270px;
+    padding-top: 0px;    
+    padding-bottom: 0px;
 }
 .studio-facts-container .studio-facts-item:not(:last-child) {
     margin-right: 30px;
 
 }
-.studio-facts-item {
-    width: 270 px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
 .container-fourth {
     display: inline-block;
     width: 1200px;
@@ -117,9 +114,12 @@ body {
 
 }
 .pictures {
-    display: block;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
 } 
+.pictures .pictures-item:not(:last-child){
+    margin-right: 10px;
+}
 .container-fifth {
     display: inline-block;
     width: 1200px;
