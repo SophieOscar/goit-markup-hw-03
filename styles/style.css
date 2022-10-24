@@ -50,8 +50,8 @@ body {
 }
 .list-addr {
     margin: 0px, 20px, 0px, 0px;
-
-    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     
 }
 .container-second {
