@@ -45,7 +45,7 @@ body {
 }
 
 .address-list {
-    display: flex;
+    display: block;
     padding: 0px;
     margin-left: auto;
    
@@ -59,7 +59,7 @@ body {
     
 }
 .container-second {
-    display: inline-block;
+    display:block;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -77,7 +77,6 @@ body {
     text-align: center;
 }
 .container-third {
-    display: inline-block;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -87,6 +86,21 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.studio-facts-container {
+    display: flex;
+    padding: 0px;
+    margin-left: auto;
+    
+}
+.studio-facts-container .studio-facts-item:not(:last-child) {
+    margin-right: 30px;
+
+}
+.studio-facts-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .container-fourth {
     display: inline-block;
     width: 1200px;
@@ -95,11 +109,15 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 94px;
-    padding-bottom: 0px;
+    padding-bottom: 94px;
     padding-left: 15px;
     padding-right: 15px;
 
 }
+.pictures {
+    display: block;
+    justify-content: space-between;
+} 
 .container-fifth {
     display: inline-block;
     width: 1200px;
@@ -225,6 +243,9 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .facts-header {
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -233,6 +254,9 @@ body {
     color: var(--link-color);
 }
 .description-items {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -341,3 +365,4 @@ body {
 .studio-chapters-container{
     padding: 0px;
 }
+
