@@ -132,9 +132,12 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 94px;
-    padding-bottom: 0px;
+    padding-bottom: 94px;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
+    align-items: center;
+    background-color: var(--team-back);
 }
 .container-sixth {
     display: inline-block;
@@ -163,9 +166,26 @@ body {
     padding-right: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
+    
 }
 .studio-team {
     background-color: var(--team-back);
+    text-align: center;
+}
+.studio-team-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+}
+.name-card {
+    width: 270px;
+    padding-bottom: 30px;
+}
+.studio-team-container .name-card:not(:last-child) {
+    margin-right: 30px;
 }
 .text-web {
     margin-right: 90px;
@@ -281,6 +301,8 @@ body {
     margin-bottom: 50px;
 }
 .name {
+    margin-top: 30;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -362,11 +384,6 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
-.studio-team-container {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
 }
 .button-list {
     padding: 0px;
