@@ -9,6 +9,7 @@
     --navigate: #F5F4FA;
     --color-button: #188CE8;
     --border-color: #ececec;
+    --cards-border: #EEEEEE;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -368,8 +369,15 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--link-color);
-    margin-top: 20px;
+    padding-top: 50px;
+    margin-top: 0px;
     margin-bottom: 8px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: var(--cards-border);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: var(--cards-border);
 }
 .description-chapters {
     font-weight: 400;
@@ -379,6 +387,15 @@ body {
     color: var(--head-link);
     margin-top: 0px;
     margin-bottom: 0px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: var(--cards-border);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: var(--cards-border);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--cards-border);
 }
 .navigate {
     height: 38px;
