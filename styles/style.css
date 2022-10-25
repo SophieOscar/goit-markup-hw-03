@@ -8,6 +8,7 @@
     --head-link: #757575;
     --navigate: #F5F4FA;
     --color-button: #188CE8;
+    --border-color: #ececec;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -33,7 +34,9 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
     padding-left: 15px;
-
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--border-color);
 }
 .nav-list {
     display: flex;
