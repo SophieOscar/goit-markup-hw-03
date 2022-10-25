@@ -364,14 +364,17 @@ body {
     background-color: var(--back-color);
 }
 .portfolio-head {
+    display: block;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--link-color);
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    padding-left: 24px;
     margin-top: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color: var(--cards-border);
@@ -385,6 +388,8 @@ body {
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--head-link);
+    padding-left: 24px;
+    padding-bottom: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
     border-left-width: 1px;
@@ -396,6 +401,9 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--cards-border);
+}
+.port-img {
+    display: block;
 }
 .navigate {
     height: 38px;
