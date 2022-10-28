@@ -10,6 +10,7 @@
     --color-button: #188CE8;
     --border-color: #ececec;
     --cards-border: #EEEEEE;
+    --mail-tel: rgba(255, 255, 255, 0.6);
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -116,6 +117,7 @@ body {
 .list-addr .foot-li:not(:last-child) {
     margin-bottom: 9px;
 }
+
 .studio-facts {
     padding-top: 94px;
 }
@@ -316,7 +318,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--head-link);
+    color: var(--mail-tel);
 }
 .name-card {
     background-color: var(--back-color);
