@@ -22,6 +22,9 @@ body {
     list-style: none;
 }
 .main-header {
+    display: block;
+    text-align: center;
+    align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--footer-header-color);
@@ -30,19 +33,25 @@ body {
 }
 .container {
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .efect-decision {
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--team-back);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -67,6 +76,9 @@ body {
 }
 .header1 {
     padding: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--border-color);
 }
 .container-first {
     display: flex;
@@ -76,9 +88,7 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
     padding-left: 15px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--border-color);
+    
 }
 .nav-list {
     display: flex;
