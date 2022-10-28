@@ -28,9 +28,7 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--footer-header-color);
-    padding-left: auto;
-    padding-right: auto;
-}
+    }
 .container {
     width: 1200px;
     margin-left: auto;
@@ -111,7 +109,12 @@ body {
     margin-right: 50px;
 }
 .list-addr {
+    display: block;
+    margin: 0px;
     padding: 0px;
+}
+.list-addr .foot-li:not(:last-child) {
+    margin-bottom: 9px;
 }
 .studio-facts {
     padding-top: 94px;
