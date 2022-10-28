@@ -22,9 +22,14 @@ body {
     list-style: none;
 }
 .main-header {
+    display: block;
+    align-items: center;
+    text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--footer-header-color);
+    padding-left: auto;
+    padding-right: auto;
 }
 .header1 {
     padding: 0px;
@@ -113,18 +118,6 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
 
-}
-.container-seventh {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    
 }
 .button-list {
     display: flex;
@@ -219,6 +212,9 @@ body {
     color: var(--web-text);
 }
 .efect-decision {
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -241,7 +237,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: inline-block;
     letter-spacing: 0.06em;
     color: var(--back-color);
     border: none;
