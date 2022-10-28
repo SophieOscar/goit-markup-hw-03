@@ -22,6 +22,7 @@ body {
     list-style: none;
 }
 .main-header {
+    align-items: center;
     background-color: var(--footer-header-color);
 }
 .header1 {
@@ -62,30 +63,24 @@ body {
 .list-addr {
     padding: 0px;
 }
-.container-second {
-    display:block;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: var(--footer-header-color);
-    align-items: center;
-    text-align: center;
-}
-.main-header {
-    text-align: center;
-}
-.container-third {
+.container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 94px;
     padding-left: 15px;
     padding-right: 15px;
+}
+.main-header {
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--footer-header-color);
+
+}
+.studio-facts {
+    padding-top: 94px;
 }
 .studio-facts-container {
     display: flex;
@@ -96,24 +91,15 @@ body {
     width: 270px;
     padding-top: 0px;    
     padding-bottom: 0px;
+
 }
 .studio-facts-container .studio-facts-item:not(:last-child) {
     margin-right: 30px;
 
 }
-.container-fourth {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.activities {
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    align-items: center;
-
 }
 .pictures {
     display: flex;
@@ -127,30 +113,6 @@ body {
 }
 .pictures .pictures-item:not(:last-child){
     margin-right: 30px;
-}
-.container-fifth {
-    display: inline-block;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    align-items: center;
-    background-color: var(--team-back);
-}
-.container-sixth {
-    display: block;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding-left: 15px;
-    
 }
 .footer {
     background-color: var(--footer-header-color);
@@ -195,6 +157,8 @@ body {
     margin-bottom: 0px;
 }
 .studio-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--team-back);
     text-align: center;
 }
@@ -265,12 +229,13 @@ body {
     font-size: 44px;
     line-height: 1.4;
     text-align: center;
+    align-items: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--team-back);
     margin-top: 0px;
-    margin-left: 0px;
     margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 30px;
 }
 .order-service {
