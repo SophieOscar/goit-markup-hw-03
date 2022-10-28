@@ -21,12 +21,49 @@ body {
 .list {
     list-style: none;
 }
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .main-header {
+    display: inline;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--footer-header-color);
     padding-left: auto;
     padding-right: auto;
+}
+.efect-decision {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--team-back);
+
+}
+
+.order-service {
+    width: 216px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    background: #2196F3;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--back-color);
+    border: none;
+    cursor: pointer;
+}
+
+.order-service:hover,.order-service:focus {
+    background: var(--color-button);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .header1 {
     padding: 0px;
@@ -65,15 +102,6 @@ body {
 }
 .list-addr {
     padding: 0px;
-}
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .studio-facts {
     padding-top: 94px;
@@ -207,34 +235,6 @@ body {
 }
 .link:hover, .link:focus {
     color: var(--web-text);
-}
-.efect-decision {
-    width: 696px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--team-back);
-    
-}
-.order-service {
-    width: 216px;
-    height: 50px;
-    font-family: 'Roboto', sans-serif;
-    background: #2196F3;
-    border-radius: 4px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    color: var(--back-color);
-    border: none;
-    cursor: pointer;   
-}
-.order-service:hover, .order-service:focus {
-    background: var(--color-button);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .facts-header {
     margin-top: 0px;
