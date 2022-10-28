@@ -22,7 +22,8 @@ body {
     list-style: none;
 }
 .main-header {
-    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--footer-header-color);
 }
 .header1 {
@@ -71,13 +72,6 @@ body {
     margin-bottom: 0px;
     padding-left: 15px;
     padding-right: 15px;
-}
-.main-header {
-
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: var(--footer-header-color);
-
 }
 .studio-facts {
     padding-top: 94px;
@@ -248,8 +242,6 @@ body {
     font-size: 16px;
     line-height: 1.9;
     display: inline-block;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--back-color);
     border: none;
