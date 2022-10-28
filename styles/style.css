@@ -22,10 +22,9 @@ body {
     list-style: none;
 }
 .main-header {
-    display: inline;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: tomato;
+    background-color: var(--footer-header-color);
     padding-left: auto;
     padding-right: auto;
 }
