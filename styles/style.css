@@ -67,7 +67,6 @@ body {
     border: none;
     cursor: pointer;
 }
-
 .order-service:hover,.order-service:focus {
     background: var(--color-button);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
