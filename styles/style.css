@@ -68,8 +68,6 @@ body {
     margin-bottom: 0px;
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-left: 200px;
-    padding-right: 200px;
     background-color: var(--footer-header-color);
     align-items: center;
     text-align: center;
@@ -274,6 +272,8 @@ body {
     margin-bottom: 30px;
 }
 .order-service {
+    width: 216px;
+    height: 50px;
     font-family: 'Roboto', sans-serif;
     background: #2196F3;
     border-radius: 4px;
