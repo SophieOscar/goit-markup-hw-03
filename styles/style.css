@@ -245,8 +245,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--link-color);
-    margin-top: 30px;
-    margin-bottom: 27px;   
+    padding-top: 30px;
+    padding-bottom: 27px;   
 }
 
 .header-link {
@@ -255,6 +255,7 @@ body {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--head-link);
+
 }
 .link:hover, .link:focus {
     color: var(--web-text);
