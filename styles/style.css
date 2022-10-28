@@ -22,9 +22,6 @@ body {
     list-style: none;
 }
 .main-header {
-    display: block;
-    align-items: center;
-    text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--footer-header-color);
@@ -212,21 +209,14 @@ body {
     color: var(--web-text);
 }
 .efect-decision {
-    display: block;
-    padding-left: auto;
-    padding-right: auto;
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
-    align-items: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--team-back);
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 30px;
+    
 }
 .order-service {
     width: 216px;
